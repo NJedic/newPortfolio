@@ -1,0 +1,15 @@
+/*Navbar*/
+/*#navBar{
+	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+}*/
+
+/*Jumbotron*/
+#jumbotron{
+	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+
+}
+
+#profilePicture{
+	max-height: 300px;
+	max-width: 300px;
+}
