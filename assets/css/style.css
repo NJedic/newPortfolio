@@ -1,15 +1,78 @@
-/*Navbar*/
-/*#navBar{
-	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
-}*/
+	/*General*/
+h1{
+	font-family: 'Zeyada', cursive;
+}
 
-/*Jumbotron*/
+body{
+	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+}
+
+	/*Navbar*/
+#navBar{
+	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+}
+
+	/*Jumbotron*/
 #jumbotron{
-	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+	background-color: rgba(235, 235, 235, .9);
+	min-height: 650px;
+}
+#name{
+	font-size: 8rem;
+}
 
+#tagLine{
+	margin-top: 100px;
 }
 
 #profilePicture{
-	max-height: 300px;
-	max-width: 300px;
+	max-height: 400px;
+	max-width: 400px;
+}
+
+	/*Sections*/
+#aboutRow, #portfolioRow, #contactRow{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+#aboutSquare, #portfolioSquare, #contactSquare{
+	display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#aboutSquare:before, #portfolioSquare:before, #contactSquare:before{
+  content:'';
+  float: left;
+  width: auto;
+  padding-bottom: 100%;
+}
+
+	/*Portfolio*/
+#portfolio{
+	margin-right: 0px;
+	margin-left: 75px;
+	max-width: auto;
+}
+#codeLink{
+	color: #292b2c;
+}
+#codeLink:hover{
+	color: #F1A16F;
+	text-decoration: none;
+}
+
+.d-block{
+	max-height: 325px;
+}
+	
+	/*Contact*/
+i{
+	color: #4DB496;
+}
+i:hover{
+	color: #6CC6AD;
 }
