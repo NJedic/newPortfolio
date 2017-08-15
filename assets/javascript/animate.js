@@ -21,6 +21,7 @@ function showText(target, message, index, interval) {
 // ++++++WEBSITE FUNCTIONALITY+++++++++++++++++++++++++++++++++++++++++++
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Animation
 // On Document Ready...
 $(document).ready(function(){
 	// Add class to fadeIn Profile Picture,
@@ -29,7 +30,6 @@ $(document).ready(function(){
 	showText("#name", "Nikki Jedic", 0, 300);
 	// Add class to fadeIn Description
 	$("#description").addClass("animated fadeIn delay2s9ms");
-
 });
 
 
