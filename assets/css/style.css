@@ -64,9 +64,41 @@ body{
 	color: #F1A16F;
 	text-decoration: none;
 }
-
 .d-block{
 	max-height: 325px;
+	max-width: 657px;
+}
+.carousel-caption{
+	background-color: rgba(323, 99, 56, .9);
+	display: inline-flex;
+	width: auto;
+}
+.carousel-indicators--round li {
+  border-radius: 10px;
+  margin: 1px 3px;
+  height: 10px;
+  max-width: 10px;
+  border: 1px solid #F1A16F;
+  background-color: transparent;
+}
+.carousel-indicators .active {
+  background-color: #F1A16F;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
+h1.portfolioTitles{
+	font-family: 'Zeyada', cursive;
+	color: black;
+}
+h1.portfolioTitles:hover{
+	color: #F1A16F;
+}
+a.portfolioLinks:hover{
+	text-decoration: none;
+}
+.portfolioDescrip{
+	color: #292b2c;
 }
 	
 	/*Contact*/
