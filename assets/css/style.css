@@ -1,118 +1,61 @@
 	/*General*/
-h1{
-	font-family: 'Zeyada', cursive;
+h1, h2, h3, h5{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+	font-family: 'Poiret One', cursive;
 }
 
 body{
-	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+	background-color: white
 }
 
 	/*Navbar*/
 #navBar{
-	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+	background-image: url("http://www.technosamrat.com/wp-content/uploads/2012/10/Colorful-Cat-Desktop-Background.jpg");
+	/*background-color: rgba(179, 156, 77, .6);*/
+}
+#navHome, #navAbout, #navServices, #navContact{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#toggleIcon{
+	color: white;
 }
 
 	/*Jumbotron*/
 #jumbotron{
-	background-color: rgba(235, 235, 235, .9);
+	background-image: url("http://www.technosamrat.com/wp-content/uploads/2012/10/Colorful-Cat-Desktop-Background.jpg");
 	/*background-color: rgba(179, 156, 77, .6);*/
-	min-height: 650px;
+	max-height: 650px;
 }
 #name{
-	font-family: 'Zeyada', cursive;
-	font-size: 8rem;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 3rem;
+	color: white;
 }
-
+#description{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 #tagLine{
-	margin-top: 100px;
-}
-
-#profilePicture{
-	max-height: 400px;
-	max-width: 400px;
+	margin-top: 450px;
 }
 
 	/*Sections*/
 #aboutRow{
 	margin-top: 150px;
 } 
-#portfolioRow, #contactRow{
+#servicesRow, #contactRow{
 	margin-top: 150px;
 }
 #contactRow{
 	margin-bottom: 100px;
 }
 
-#aboutSquare, #portfolioSquare, #contactSquare{
-	display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 1em;
-  border-radius: 50%;
-  vertical-align: middle;
-}
-#aboutSquare:before, #portfolioSquare:before, #contactSquare:before{
-  content:'';
-  float: left;
-  width: auto;
-  padding-bottom: 100%;
-}
+	/*About Section*/
 
-	/*Portfolio*/
-#portfolio{
-	margin-right: 0px;
-	margin-left: 75px;
-	max-width: auto;
-}
-#codeLink{
-	color: #292b2c;
-}
-#codeLink:hover{
-	color: #F1A16F;
-	text-decoration: none;
-}
-.d-block{
-	max-height: 325px;
-	max-width: 657px;
-}
-.carousel-caption{
-	background-color: rgba(323, 99, 56, .9);
-	display: inline-flex;
-	width: auto;
-	min-height: 228px;
-}
-.carousel-indicators--round li {
-  border-radius: 10px;
-  margin: 1px 3px;
-  height: 10px;
-  max-width: 10px;
-  border: 1px solid #F1A16F;
-  background-color: transparent;
-}
-.carousel-indicators .active {
-  background-color: #F1A16F;
-  max-width: 12px;
-  margin: 0 3px;
-  height: 12px;
-}
-h1.portfolioTitles{
-	font-family: 'Zeyada', cursive;
-	color: black;
-}
-h1.portfolioTitles:hover{
-	color: #F1A16F;
-}
-a.portfolioLinks:hover{
-	text-decoration: none;
-}
-.portfolioDescrip{
-	color: #292b2c;
-}
-	
-	/*Contact*/
-i{
-	color: #4DB496;
-}
-i:hover{
-	color: #6CC6AD;
-}
