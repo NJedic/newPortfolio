@@ -1,0 +1,76 @@
+h1, h2, h3, h5{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+body{
+	background-color: white
+}
+
+	/*Navbar*/
+#navBar{
+	background-image: url("http://www.technosamrat.com/wp-content/uploads/2012/10/Colorful-Cat-Desktop-Background.jpg");
+	/*background-color: rgba(179, 156, 77, .6);*/
+}
+#navHome, #navAbout, #navPortfolio, #navContact{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#toggleIcon{
+	color: white;
+}
+
+	/*Portfolio Section*/
+#portfolioRow{
+	margin-top: 100px;
+}
+#portfolioImagesRow{
+	margin-top: 40px;
+}
+.img_link{
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+a{
+	display: inline-block;
+	position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(238, 238, 238, .9);
+}
+a:hover .overlay {
+  opacity: 1;
+}
+.title {
+  color: black;
+  font-size: 20px;
+ 	font-family: 'Poiret One', cursive;
+ 	font-weight: bold;
+	letter-spacing: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

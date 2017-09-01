@@ -74,6 +74,10 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+#learnMoreButton:hover{
+	transition: .5s ease;
+	/*background-color: #5f5e5d;*/
+}
 #bioButton{
 	color: black;
 }
@@ -109,4 +113,5 @@ i{
 }
 i:hover{
 	color: #e6e6e6;
+	transition: .5s ease;
 }

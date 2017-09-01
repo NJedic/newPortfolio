@@ -7,7 +7,7 @@ p{
 	font-family: 'Poiret One', cursive;
 	font-size: 16px;
 	color: black;
-	font-weight: bold;
+	font-weight: 600;
 	letter-spacing: 1px;
 }
 
@@ -31,8 +31,11 @@ body{
 }
 
 	/*Full Bio Section*/
-#fullBioRow{
+#aboutRow{
 	margin-top: 100px;
+}
+#fullBioRow{
+	margin-top: 40px;
 }
 #profilePicture{
 	max-width: 80%;
@@ -66,7 +69,7 @@ body{
 	/*Contact Section*/
 #contactRow{
 	margin-top: 100px;
-	margin-bottom: 200px;
+	margin-bottom: 220px;
 }
 #contactRowBreakdown{
 	margin-top: 40px;
@@ -76,4 +79,5 @@ i{
 }
 i:hover{
 	color: #e6e6e6;
+	transition: .5s ease;
 }
