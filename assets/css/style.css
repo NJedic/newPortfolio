@@ -5,6 +5,10 @@ h1, h2, h3, h5{
 
 p{
 	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 body{
@@ -58,4 +62,42 @@ body{
 }
 
 	/*About Section*/
+#elevatorPitch{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#learnMoreButton{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#bioButton{
+	color: black;
+}
+#bioButton:hover{
+	text-decoration: none;
+}
 
+	/*Services Section*/
+#services{
+	background-color: pink;
+}
+#servicesBreakdownRow{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#viewPortfolioButton{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#portfolioButton{
+	color: black;
+}
+#portfolioButton:hover{
+	text-decoration: none;
+}
