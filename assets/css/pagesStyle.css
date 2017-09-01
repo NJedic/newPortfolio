@@ -28,3 +28,32 @@ body{
 #toggleIcon{
 	color: white;
 }
+
+	/*Carousel Section*/
+#carouselContainer{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#carouselRow{
+	margin-top: 100px;
+	margin-right: auto;
+}
+.d-block{
+	max-height: 450px;
+	max-width: 857px;
+	border-radius: 40px;
+}
+.carousel-indicators--round li {
+  border-radius: 10px;
+  margin: 1px 3px;
+  height: 10px;
+  max-width: 10px;
+  border: 1px solid #5f5e5d;
+  background-color: transparent;
+}
+.carousel-indicators .active {
+  background-color: #5d5e5d;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
