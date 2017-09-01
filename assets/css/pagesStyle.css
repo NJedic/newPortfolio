@@ -6,7 +6,7 @@ p{
 	font-family: 'Poiret One', cursive;
 	font-size: 16px;
 	color: black;
-	font-weight: bold;
+	font-weight: 600;
 	letter-spacing: 1px;
 }
 
@@ -30,12 +30,11 @@ body{
 }
 
 	/*Carousel Section*/
-#carouselContainer{
-	margin-left: 10px;
-	margin-right: 10px;
+#projectTitleRow{
+	margin-top: 100px;
 }
 #carouselRow{
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-right: auto;
 }
 .d-block{
@@ -56,4 +55,43 @@ body{
   max-width: 12px;
   margin: 0 3px;
   height: 12px;
+}
+
+	/*Description Section*/
+#descriptionRow{
+	margin-top: 75px;
+}
+#viewProjectButton, #viewCodeButton{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#viewProjectButton:hover, #viewCodeButton:hover{
+	transition: .5s ease;
+	/*background-color: #5f5e5d;*/
+}
+#projectButton, #codeButton{
+	color: black;
+}
+#projectButton:hover, #codeButton:hover{
+	text-decoration: none;
+}
+
+
+	/*Contact Section*/
+#contactRow{
+	margin-top: 100px;
+	margin-bottom: 250px;
+}
+#contactRowBreakdown{
+	margin-top: 40px;
+}
+i{
+	color: #5f5e5d;
+}
+i:hover{
+	color: #e6e6e6;
+	transition: .5s ease;
 }
