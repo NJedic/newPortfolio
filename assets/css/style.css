@@ -52,13 +52,14 @@ body{
 
 	/*Sections*/
 #aboutRow{
-	margin-top: 150px;
+	margin-top: 200px;
 } 
-#servicesRow, #contactRow{
-	margin-top: 150px;
+#servicesRow{
+	margin-top: 200px;
 }
 #contactRow{
-	margin-bottom: 100px;
+	margin-top: 200px;
+	margin-bottom: 200px;
 }
 
 	/*About Section*/
@@ -81,9 +82,9 @@ body{
 }
 
 	/*Services Section*/
-#services{
+/*#services{
 	background-color: pink;
-}
+}*/
 #servicesBreakdownRow{
 	margin-top: 40px;
 	margin-bottom: 30px;
