@@ -34,8 +34,8 @@ $(document).ready(function(){
 // +++++++++++++++++++++
 // On Document Ready...
 $(document).ready(function(){
-	// Add class to fadeIn Profile pic
-	// $("#profilePicture").addClass("animated fadeIn delay0s9ms");
+	// Add class to fadeIn About Header pic
+	// $("#aboutHeader").addClass("animated fadeIn delay0s9ms");
 	// Call function to render Name,
 	showText("#bioName", "Nikki", 0, 300);
 });
