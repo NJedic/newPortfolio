@@ -14,26 +14,31 @@ function showText(target, message, index, interval) {
   } 
   return deferred.promise();
 }
-// Call function to render Name,
-	// showText("#name", "Nikki Jedic", 0, 300);
 
 
 
 // ++++++WEBSITE FUNCTIONALITY+++++++++++++++++++++++++++++++++++++++++++
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Animation
+// index.html
+// +++++++++++++++++++++
 // On Document Ready...
 $(document).ready(function(){
-	
-	// Add class to fadeIn Description
-	// $("#description").addClass("animated fadeIn delay1s6ms");
+	// Add class to fadeIn hr
 	$("#jumbotronHr").addClass("animated fadeInLeft delay0s9ms");
+	// Add class to fadeIn Name
 	$("#name").addClass("animated fadeIn delay1s9ms");
 });
 
-
-
+// bio.html
+// +++++++++++++++++++++
+// On Document Ready...
+$(document).ready(function(){
+	// Add class to fadeIn Profile pic
+	// $("#profilePicture").addClass("animated fadeIn delay0s9ms");
+	// Call function to render Name,
+	showText("#bioName", "Nikki", 0, 300);
+});
 
 	
  

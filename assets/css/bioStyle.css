@@ -1,0 +1,79 @@
+	/*General*/
+h1, h2, h3, h5{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+p{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+body{
+	background-color: white
+}
+
+	/*Navbar*/
+#navBar{
+	background-image: url("http://www.technosamrat.com/wp-content/uploads/2012/10/Colorful-Cat-Desktop-Background.jpg");
+	/*background-color: rgba(179, 156, 77, .6);*/
+}
+#navHome, #navAbout, #navPortfolio, #navContact{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#toggleIcon{
+	color: white;
+}
+
+	/*Full Bio Section*/
+#fullBioRow{
+	margin-top: 100px;
+}
+#profilePicture{
+	max-width: 80%;
+	border-radius: 60px;
+	margin-top: 40px;
+}
+#xoxo{
+	margin-bottom: 0px;
+}
+#bioName{
+	font-family: 'Zeyada', cursive;
+	font-weight: normal;
+	font-size: 50px;
+	font-style: italic;
+}
+#viewPortfolioButton{
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#portfolioLink{
+	color: black;
+}
+#portfolioLink:hover{
+	text-decoration: none;
+	color:#adadad;
+}
+
+	/*Contact Section*/
+#contactRow{
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+#contactRowBreakdown{
+	margin-top: 40px;
+}
+i{
+	color: #5f5e5d;
+}
+i:hover{
+	color: #e6e6e6;
+}

@@ -82,9 +82,6 @@ body{
 }
 
 	/*Services Section*/
-/*#services{
-	background-color: pink;
-}*/
 #servicesBreakdownRow{
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -101,4 +98,15 @@ body{
 }
 #portfolioButton:hover{
 	text-decoration: none;
+}
+
+	/*Contact Section*/
+#contactRowBreakdown{
+	margin-top: 40px;
+}
+i{
+	color: #5f5e5d;
+}
+i:hover{
+	color: #e6e6e6;
 }

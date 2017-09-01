@@ -9,7 +9,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<!-- Link to Google Fonts CDN -->
-		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One|Zeyada" rel="stylesheet">
 		<!-- Link to Font Awesome CDN -->
 		<script src="https://use.fontawesome.com/83c1e08994.js"></script>
 		<!-- Link to Animate.CSS CDN -->
@@ -17,11 +17,10 @@
 		<!-- Link to relative Delay.CSS for Animate.CSS support -->
 		<link rel="stylesheet" href="./assets/css/delay.css">
 		<!-- Link to relative stylesheet -->
-		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="./assets/css/bioStyle.css">
 	</head>
-	
-	<body>
 
+	<body>
 		<!-- Navbar -->
 		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="navBar">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,75 +29,36 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
         	<li class="nav-item active">
-            <a class="nav-link" href="#jumbotron" id="navHome">Home</a>
+            <a class="nav-link" href="index.html" id="navHome">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#about" id="navAbout">About</a>
+            <a class="nav-link" href="portfolio.html" id="navPortfolio">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#services" id="navServices">Services</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#contact" id="navContact">Contact</a>
+            <a class="nav-link" href="#contact" id="navContact" >Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-		
-		<!-- Jumbotron -->
-		<div class="jumbotron jumbotron-fluid" id="jumbotron">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-lg-6" id="tagLine">
-						<h1 class="display-3" id="name">Nikki Jedic</h1>
-						<hr style="background-color: white" id="jumbotronHr">
-						<!-- <p id="description">Multi-media artist &#38; Front End UI/UX Designer</p> -->
-  				<div>
-  			</div>
-  		</div>
-		</div>
 
-		<!-- About Me Section -->
-		<div class="container" id="about">
-			<br>
-			<div class="row" id="aboutRow">
-				<div class="col-lg-12 text-center">
-					<h3>Multi-media Artist &#38; Front End UI/UX Designer</h3>
-					<hr width="5%">
-					<p id="elevatorPitch">With a Fine Arts Degree from Mason Gross School of the Arts and years of practical experience working in the design and customer service fields, I am uniquely qualified to tackle all of your creative needs.</p>
-					<button type="button" class="btn btn-secondary" id="learnMoreButton"><a href="bio.html" id="bioButton">Learn More</a></button>
+		<!-- Full Bio Section -->
+		<div class="container">
+			<div class="row" id="fullBioRow">
+				<div class="col-lg-5 text-center">
+					<img src="./assets/img/profileCropped.jpg" alt="profile picture" id=profilePicture>
+				</div>
+				<div class="col-lg-7 text-center">
+					<p>A multi-media artist with Bachelor of Fine Arts Degree from Mason Gross School of the Arts at Rutgers University, I have been in the creative field for most of my life. Working with textile dyeing, color matching, and costume crafting for Broadway and Television helped me to hone my design skills and understand the integral part color and texture play in conjuring up a particular mood or feeling.</p>
+
+					<p>Shortly thereafter, I spent over two years working in customer service for a luxury retail brand. I learned an immense amount not only in regards to marketing, but also customer interaction and expectation. Retail allowed me to take a glimpse into the minds of our customers on a daily basis and judge, on the ground level, how well a certain promotional or marketing campaign was working. I was not only responsible for the success of our store, but also the hiring of its staff and the training of all employees, giving me a crash course in the importance of teamwork and trust above all else.</p>
+
+					<p>In my career now as a Front End &#38; UI/UX Designer, I find I am able to use my entire skillset in order to build diverse, interactive, innovative, evocative, and user-friendly designs for a wide-rang of clientele. Take a look at my <a href="portfolio.html" id="portfolioLink">Portfolio</a>, and feel free to contact me via any of the outlets listed below, I would love to help you turn your dream project into a reality.</p>
+					<p id="xoxo">xoxo</p>
+					<p id="bioName"></p>
 				</div>
 			</div>
 		</div>
 
-		<!-- Services Section -->
-		<div class="container" id="services">
-			<br>
-			<div class="row" id="servicesRow">
-				<div class="col-lg-12 text-center">
-					<h3 style="text-align: center">Services</h3>
-					<hr width="5%">
-					<div class="row" id="servicesBreakdownRow">
-						<div class="col-lg-4" style="text-align: center">
-							<h5>Front End Technology</h5>
-							<hr width="5%">
-							<p style="font-size: 14px">Well-versed in CSS, JavaScript, JQuery, Bootstrap3 &#38; the still-evolving Bootstrap4, I can bring your design ideas into reality and into the future.</p>
-						</div>
-						<div class="col-lg-4" style="text-align: center">
-							<h5>UI/UX Design</h5>
-							<hr width="5%">
-							<p style="font-size: 14px">Whether it's a feeling or an image, I know inspiration can come from anywhere. I can help turn that spark into something tangible your clientele will respond to.</p>
-						</div>
-						<div class="col-lg-4" style="text-align: center">
-							<h5>Multimedia Artist</h5>
-							<hr width="5%">
-							<p style="font-size: 14px">Working with textiles is an art, and the experience of crafting with 3D objects allows me to add an air of something tangible and soulful to all of my digital work. 
-						</div>
-					</div>
-					<button type="button" class="btn btn-secondary" id="viewPortfolioButton"><a href="portfolio.html" id="portfolioButton">View Portfolio</a></button>
-				</div>
-			</div>
-		</div>
 
 		<!-- Contact Section -->
 		<div class="container" id="contact">
@@ -134,7 +94,7 @@
 			</div>
 		</div>
 
-		<!-- Link to relative JavaScript for Animation -->
+	<!-- Link to relative JavaScript for Animation -->
 		<script type="text/javascript" src="assets/javascript/animate.js"></script>
 	</body>
 </html>
