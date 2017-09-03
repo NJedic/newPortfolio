@@ -20,6 +20,10 @@ body{
 	background-image: url('../img/CoverImageTwo.jpg');
 	background-size: cover;
 }
+#navHome:hover, #navAbout:hover, #navServices:hover, #navContact:hover{
+	color: #fdb41b;
+	transition: .5s ease;
+}
 #navHome, #navAbout, #navServices, #navContact{
 	font-family: 'Poiret One', cursive;
 	color: white;
