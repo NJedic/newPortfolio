@@ -40,5 +40,10 @@ $(document).ready(function(){
 	showText("#bioName", "Nikki", 0, 300);
 });
 
+// Handles Email
+$("a[href^='mailto:']").on("click",function() {
+    window.top.location = $(this).prop("href");
+    return false;
+});
 	
  
