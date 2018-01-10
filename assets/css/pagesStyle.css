@@ -16,9 +16,7 @@ body{
 
 	/*Navbar*/
 #navBar{
-	/*background-image: url("http://www.technosamrat.com/wp-content/uploads/2012/10/Colorful-Cat-Desktop-Background.jpg");*/
-	/*background-color: rgba(179, 156, 77, .6);*/
-	background-image: url('../img/CoverImageTwo.jpg');
+	background-image: url('../img/IMG_7661_cropped2.jpg');
 	background-size: cover;
 }
 #navHome:hover, #navAbout:hover, #navPortfolio:hover, #navContact:hover{

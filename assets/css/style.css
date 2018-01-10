@@ -12,12 +12,12 @@ p{
 }
 
 body{
-	background-color: white
+	background-color: white;
 }
 
 	/*Navbar*/
 #navBar{
-	background-image: url('../img/CoverImageTwo.jpg');
+	background-image: url('../img/IMG_7661_cropped2.jpg');
 	background-size: cover;
 }
 #navHome:hover, #navAbout:hover, #navServices:hover, #navContact:hover{
@@ -36,7 +36,7 @@ body{
 
 	/*Jumbotron*/
 #jumbotron{
-	background-image: url('../img/CoverImageTwo.jpg');
+	background-image: url('../img/IMG_7661_cropped2.jpg');
 	background-size: cover;
 	max-height: 650px;
 }
