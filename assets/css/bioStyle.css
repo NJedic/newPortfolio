@@ -21,7 +21,7 @@ body{
 	background-size: cover;
 }
 #navHome:hover, #navPortfolio:hover, #navContact:hover{
-	color: #fdb41b;
+	color: #EAAC2E;
 	transition: .5s ease;
 }
 #navHome, #navAbout, #navPortfolio, #navContact{
