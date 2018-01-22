@@ -4,10 +4,12 @@
 		<meta charset="utf-8">
 		<title>Nikki Jedic</title>
 		<!-- Bootstrap4 CDN -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<!-- Bootstrap Responsive Meta Tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Link to Google Fonts CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One" rel="stylesheet">
 		<!-- Link to Font Awesome CDN -->
@@ -23,28 +25,28 @@
 	<body>
 
 		<!-- Navbar -->
-		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="navBar">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" id="toggleIcon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-        	<li class="nav-item active">
-            <a class="nav-link" href="#jumbotron" id="navHome">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#about" id="navAbout">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#services" id="navServices">Services</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#contact" id="navContact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-		
+  	<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navBar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+	  		<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse">
+		  	<ul class="navbar-nav ml-auto">
+	      	<li class="nav-item active">
+	          <a class="nav-link" href="#jumbotron" id="navHome">Home</a>
+	        </li>
+	        <li class="nav-item active">
+	          <a class="nav-link" href="#about" id="navAbout">About</a>
+	        </li>
+	        <li class="nav-item active">
+	          <a class="nav-link" href="#services" id="navServices">Services</a>
+	        </li>
+	        <li class="nav-item active">
+	          <a class="nav-link" href="#contact" id="navContact">Contact</a>
+	        </li>
+	      </ul>
+		  </div>
+		</nav>
+
 		<!-- Jumbotron -->
 		<div class="jumbotron jumbotron-fluid" id="jumbotron">
   		<div class="container">
@@ -66,7 +68,7 @@
 					<h3>Fiber Artist &#38; Front End UI/UX Designer</h3>
 					<hr width="5%" style="background-color: #c4863d">
 					<p id="elevatorPitch">With a Fine Arts Degree from Mason Gross School of the Arts and years of practical experience working in the design and customer service fields, I am uniquely qualified to tackle all of your creative needs.</p>
-					<button type="button" class="btn btn-secondary" id="learnMoreButton"><a href="/about" id="bioButton">Learn More</a></button>
+					<button type="button" class="btn btn-light" id="learnMoreButton"><a href="/about" id="bioButton">Learn More</a></button>
 				</div>
 			</div>
 		</div>
@@ -95,7 +97,7 @@
 							<p style="font-size: 14px">Working with textiles is an art, and the experience of crafting with 3D objects allows me to add an air of something tangible and soulful to all of my digital work. 
 						</div>
 					</div>
-					<button type="button" class="btn btn-secondary" id="viewPortfolioButton"><a href="/portfolio" id="portfolioButton">View Portfolio</a></button>
+					<button type="button" class="btn btn-light" id="viewPortfolioButton"><a href="/portfolio" id="portfolioButton">View Portfolio</a></button>
 				</div>
 			</div>
 		</div>
