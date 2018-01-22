@@ -25,7 +25,7 @@ body{
 }
 #navHome, #navAbout, #navPortfolio, #navContact{
 	font-family: 'Poiret One', cursive;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -90,7 +90,7 @@ a:hover .overlay {
 	margin-top: 40px;
 }
 i{
-	color: #5f5e5d;
+	color: #aaabab;
 }
 i:hover{
 	color: #e6e6e6;
