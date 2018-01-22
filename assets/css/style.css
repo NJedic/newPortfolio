@@ -17,7 +17,7 @@ body{
 
 	/*Navbar*/
 #navBar{
-	background-color: rgba(207,191,176,.68);
+	background-color: rgba(216,191,216,.68);
 }
 #navHome:hover, #navAbout:hover, #navServices:hover, #navContact:hover{
 	color: #EAAC2E;
