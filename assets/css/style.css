@@ -25,7 +25,7 @@ body{
 }
 #navHome, #navAbout, #navServices, #navContact{
 	font-family: 'Poiret One', cursive;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
