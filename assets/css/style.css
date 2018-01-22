@@ -72,7 +72,7 @@ body{
 	margin-bottom: 40px;
 }
 #learnMoreButton{
-	background-color: rgba(245,243,240,.68);
+	background-color: rgba(233,235,234,.68);
 	font-family: 'Poiret One', cursive;
 	font-size: 16px;
 	font-weight: bold;
@@ -96,7 +96,7 @@ body{
 	margin-bottom: 30px;
 }
 #viewPortfolioButton{
-	background-color: rgba(245,243,240,.68);
+	background-color: rgba(233,235,234,.68);
 	font-family: 'Poiret One', cursive;
 	font-size: 16px;
 	font-weight: bold;
@@ -119,7 +119,7 @@ body{
 	margin-top: 40px;
 }
 i{
-	color: rgb(207,191,176);
+	color: #aaabab;
 }
 i:hover{
 	color: #e6e6e6;
