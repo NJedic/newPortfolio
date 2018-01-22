@@ -17,7 +17,7 @@ body{
 
 	/*Navbar*/
 #navBar{
-	background-color: rgba(190,144,176,.68);
+	background-color: rgba(197,157,185,.68);
 }
 #navHome:hover, #navAbout:hover, #navServices:hover, #navContact:hover{
 	color: #EAAC2E;
@@ -42,7 +42,7 @@ body{
 #name{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 3rem;
-	color: #c4863d;
+	color: #57b6a2;
 	text-shadow: 1px 1px white;
 }
 #description{
