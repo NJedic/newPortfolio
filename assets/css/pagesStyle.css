@@ -45,7 +45,6 @@ body{
 .d-block{
 	max-height: 450px;
 	max-width: 857px;
-	size: auto;
 	border-radius: 40px;
 }
 .carousel-indicators--round li {
@@ -61,6 +60,11 @@ body{
   max-width: 12px;
   margin: 0 3px;
   height: 12px;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
 }
 
 	/*Description Section*/
